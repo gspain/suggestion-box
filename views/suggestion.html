@@ -1,0 +1,24 @@
+<div class="suggestion-view">
+	<div class="suggestion panel panel-info">
+		<div class="panel-heading">
+			<a class="btn btn-default" href="javascript:history.go(-1)"><span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>
+			<span class="panel-title">{{ suggestion.title }}</span>
+		</div>
+		<div class="panel-body comments">
+			<div class="list-group">
+				<div ng-if="!suggestion.comments.length"><p>There aren't any comments yet!</p></div>
+				<div class="list-group-item comment" ng-repeat="comment in suggestion.comments">
+					<p>{{ comment.text }}</p>
+					<button type="button" class="btn btn-success" ng-click="upVoteComment($index)"><span class="glyphicon glyphicon-thumbs-up"></span> {{comment.upvotes}}</button>
+					<button type="button" class="btn btn-danger" ng-click="downVoteComment($index)"><span class="glyphicon glyphicon-thumbs-down"></span> {{comment.downvotes}}</button>
+				</div>
+			</div>
+			<form ng-submit="addComment()">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="add a comment" ng-model="text"></input>
+					<span class="input-group-btn"><button type="submit" class="btn btn-primary">Comment</button></span>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

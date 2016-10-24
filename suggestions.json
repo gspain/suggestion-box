@@ -1,0 +1,36 @@
+[
+	{
+		"title": "Free pizza at club meetings",
+		"date": "",
+		"upvotes": 0,
+		"downvotes": 0,
+		"comments": [
+			{
+				"text": "test comment",
+				"upvotes": 0,
+				"downvotes": 0
+			}
+		]
+	},
+	{
+		"title": "End all club emails with Laffy Taffy jokes",
+		"date": "",
+		"upvotes": 0,
+		"downvotes": 0,
+		"comments": []
+	},
+	{
+		"title": "Retrofit water fountain with Gatorade",
+		"date": "",
+		"upvotes": 0,
+		"downvotes": 0,
+		"comments": []
+	},
+	{
+		"title": "Sing Bon Jovi's \"Living on a Prayer\" halfway through meetings",
+		"date": "",
+		"upvotes": 0,
+		"downvotes": 0,
+		"comments": []
+	}
+]
