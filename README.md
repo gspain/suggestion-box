@@ -27,8 +27,10 @@ Translated:
 Suggestion List:
 - A home.html file for the view
 - A home controller for suggestion item actions
+
 Comments:
 - A posts.html file for the view, so we can see an individual post to comment on
 - A posts controller for comment actions
+
 Store Suggestions and Comments:
 - A service for storing data
