@@ -25,10 +25,10 @@ Translated:
 - To comment on a suggestion, we will need to add routing to add another view. We can use similar ideas as above to build out the comments functionality
 
 Suggestion List:
-	A home.html file for the view
-	A home controller for suggestion item actions
+- A home.html file for the view
+- A home controller for suggestion item actions
 Comments:
-	A posts.html file for the view, so we can see an individual post to comment on
-	A posts controller for comment actions
+- A posts.html file for the view, so we can see an individual post to comment on
+- A posts controller for comment actions
 Store Suggestions and Comments:
-	A service for storing data
+- A service for storing data
