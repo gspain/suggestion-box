@@ -1,4 +1,4 @@
-var app = angular.module('SuggestionBoxApp', ['ngRoute']);
+var app = angular.module('SuggestionBoxApp', ['ngRoute', 'LocalStorageModule']);
 
 app.config(function($routeProvider) {
 	$routeProvider
@@ -13,4 +13,10 @@ app.config(function($routeProvider) {
 	.otherwise({
 		redirectTo: '/'
 	});
+});
+
+app.config(function(localStorageServiceProvider) {
+	localStorageServiceProvider
+	  .setPrefix('SuggestionBoxApp')
+	  .setStorageType('localStorage');
 });
